@@ -1,34 +1,12 @@
 {
-  "version": "1.1",
-  "weekly_split": [
-    {
-      "day": "Monday",
-      "focus": "Chest + Quads"
-    },
-    {
-      "day": "Tuesday",
-      "focus": "Back + Biceps"
-    },
-    {
-      "day": "Wednesday",
-      "focus": "Peloton + Core"
-    },
-    {
-      "day": "Thursday",
-      "focus": "Shoulders + Triceps + Chest"
-    },
-    {
-      "day": "Friday",
-      "focus": "Hamstrings + Glutes + Back"
-    },
-    {
-      "day": "Saturday",
-      "focus": "Peloton Conditioning"
-    },
-    {
-      "day": "Sunday",
-      "focus": "Rest"
-    }
-  ],
-  "note": "Runtime plan and variants are embedded in index.html; plan.json is documentation only."
+  "version": "1.2",
+  "notes": "Training plan is embedded in index.html. Retains v1.1 localStorage key for migration.",
+  "features": [
+    "Automatic training week with Monday start",
+    "Set-validated completion",
+    "Peloton logging",
+    "Previous best",
+    "Weight averages",
+    "JSON backups"
+  ]
 }
